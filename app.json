@@ -4,11 +4,11 @@
     "slug": "digitest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconag.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashag.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.koamngg.koamngapp",
+      "buildNumber": "1.2.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/iconag.png",
+        "backgroundColor": "#fffff"
+      },
+      "package": "com.komangg.komangapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
