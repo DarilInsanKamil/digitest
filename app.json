@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splashag.png",
       "resizeMode": "contain",
-      "backgroundColor": "#fffff"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/iconag.png",
-        "backgroundColor": "#fffff"
+        "backgroundColor": "#FFFFFF"
       },
       "package": "com.komangg.komangapp",
       "versionCode": 1
